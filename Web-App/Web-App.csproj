@@ -5,6 +5,7 @@
     <RootNamespace>Web_App</RootNamespace>
     <UserSecretsId>45b10089-be9d-47d3-a48c-ae76985f3abe</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
