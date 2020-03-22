@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   web-app:
-    image: ${DOCKER_REGISTRY-}azure-pipelines-example-webapp:${CURRENT_TIMESTAMP}
+    image: "${DOCKER_REGISTRY-}azure-pipelines-example-webapp:${CURRENT_TIMESTAMP}"
     build:
       context: .
       dockerfile: Web-App/Dockerfile
